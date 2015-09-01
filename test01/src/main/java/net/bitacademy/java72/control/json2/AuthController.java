@@ -33,6 +33,8 @@ public class AuthController {
       HttpServletResponse response,
       HttpSession session) throws Exception {
     
+    System.out.println("test01");
+    
     HashMap<String, Object> resultMap = new HashMap<>();
     
 
